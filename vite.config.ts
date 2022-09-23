@@ -19,7 +19,7 @@ export default defineConfig({
     hmr: true,//开启热更新
     proxy: {
       '/api': {
-        target: 'http://10.213.239.13:8080',//代理的地址
+        target: 'http://10.213.239.171:8080',//代理的地址
         changeOrigin: true,
         // rewrite: path => path.replace(/^\/api/, '')
     }
